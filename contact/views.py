@@ -11,7 +11,7 @@ def read_contact(res,id):
     print(f"reading contact...{id}")
     return render(res,"contact/index.html")
 
-def create_contacts(res):
+def create_contact(res):
     print("creating contacts...")
     return render(res,"contact/index.html")
 
